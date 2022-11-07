@@ -1,0 +1,338 @@
+﻿
+    
+
+{
+    box-sizing: border-box;
+}
+
+p {
+    font-size: 18px;
+    display: inline;
+}
+
+/* header */
+header {
+    background-color: #ccc;
+    padding: 48px;
+    font-size: 14px;
+    color: black;
+}
+
+/* header text */
+.login {
+    text-align: left;
+}
+
+.price {
+    float: right
+}
+
+.date {
+    position: relative;
+    top: -1px;
+}
+
+
+/* Main section between header and footer */
+nav {
+    width: 100%;
+    height: 770px;
+    background: #ccc;
+}
+
+
+
+/* footer if we need it */
+footer {
+    background-color: #ccc;
+    padding: 10px;
+}
+
+
+
+
+/* Containers for the buttons */
+.containerMain {
+    margin: auto;
+    width: 50%;
+    height: 80%;
+    //outline: 2px deeppink dashed;
+}
+
+.container {
+    float: left;
+    width: 100px;
+    height: 100px;
+    //outline: 2px deeppink dashed;
+}
+
+.container1 {
+    float: left;
+    width: 100px;
+    height: 75px;
+    //outline: 2px deeppink dashed;
+}
+
+.container2 {
+    float: right;
+    width: 140px;
+    height: 150px;
+   // outline: 2px deeppink dashed;
+}
+
+
+
+/* small box to help postion thinks*/
+.box {
+    width: 50px;
+    height: 30px;
+     //border: 1px solid black;
+}
+
+
+
+
+/* Main boxes */
+
+.containerMain {
+    margin: auto;
+    width: 75%;
+    height: 90%;
+    //outline: 2px deeppink dashed;
+}
+
+
+.boxright {
+    float: right;
+    width: 300px;
+    height: 50px;
+    //border: 1px solid black;
+}
+
+.boxleft {
+    float: left;
+    width: 600px;
+    height: 130px;
+    //border: 1px solid black;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/* buttons */
+
+.buttonTime {
+    // border: 1px solid black;
+    width: 100%;
+    background: #dbdbdb;
+    font-size: 18px;
+}
+
+.buttonDate {
+    //border: 1px solid black;
+    width: 100%;
+    background: #dbdbdb;
+    font-size: 18px;
+    padding: 8px 22px;
+}
+
+.buttonCacu {
+    // border: 1px solid black;
+    float: right;
+    background: #dbdbdb;
+    font-size: 18px;
+    padding: 8px 10px;
+    width: 100%;
+}
+
+.buttonData {
+    // border: 1px solid black;
+    background: #dbdbdb;
+    font-size: 18px;
+    padding: 8px 10px;
+    width: 75%;
+    float: right;
+}
+
+.buttonLog_in {
+    // border: 1px solid black;
+    float: left;
+    background: #dbdbdb;
+    font-size: 18px;
+    padding: 8px 10px;
+    width: 100px;
+}
+
+button:hover {
+    background-color: #D3D3D3;
+    color: black;
+}
+
+
+
+/* toggle swicth */
+.switch {
+  
+    bottom: 0px;
+    display: inline-block;
+
+}
+
+    .switch input {
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
+
+.slider {
+   
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #dbdbdb;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+    .slider:before {
+        float: right;
+        content: "";
+        height: 26px;
+        width: 26px;
+        left: 4px;
+        bottom: 4px;
+        background-color: white;
+        -webkit-transition: .4s;
+        transition: .4s;
+    }
+
+input:checked + .slider {
+    background-color: #2196F3;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+
+.slider.round {
+    border-radius: 34px;
+}
+
+    .slider.round:before {
+        border-radius: 50%;
+    }
+
+
+/* Table */
+table,
+th,
+td {
+    border: 1px solid black;
+    width: 100%;
+    Text-align: center;
+}
+
+td {
+    font-size: 18px;
+    width: 25%;
+    height: 50px;
+}
+
+
+
+
+
+/* Login page */
+
+.containerLogin {
+    margin: auto;
+    width: 600px;
+    height: 90%;
+    // outline: 3px gray solid;
+    text-align: center;
+    
+}
+
+.boxLoginleft {
+    margin: auto;
+    width: 230px;
+    height: 400px;
+   // outline: 2px gray solid;
+    text-align: left;
+}
+
+.boxLoginright {
+    float: right;
+    width: 75%;
+    height: 100%;
+    //outline: 2px deeppink dashed;
+}
+
+.buttonLogin {
+    //border: 1px solid black;
+    float: right;
+    background: #dbdbdb;
+    font-size: 18px;
+    padding: 10px 30px;
+    float: right;
+}
+
+input {
+    padding: 10px 30px;
+}
+
+
+
+
+/* graph page */
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.containerGraph {
+    margin: auto;
+    width: 25%;
+    height: 90%;
+    //outline: 2px gray solid;
+    text-align: center;
+}
+
+.percentMinus {
+    color: red;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.percentPlus {
+    color: green;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.tableGraph {
+    //border: 1px solid black;
+    Text-align: center;
+}
+
+    .tableGraph td,
+    .tableGraph th {
+        height: 85px;
+        width: 25px;
+    }
+
+
+
